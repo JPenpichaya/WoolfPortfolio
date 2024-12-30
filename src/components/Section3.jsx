@@ -43,7 +43,7 @@ const Section3 = () => {
     };
 
     return (
-        <div>
+        <div className="h-dvh flex justify-center items-center flex-col">
             <h1 className="text-5xl font-bold m-6 text-center">Experience</h1>
             <div className="relative w-full max-w-3xl mx-auto p-4">
                 {/* Slide Content */}
@@ -71,8 +71,8 @@ const Section3 = () => {
                     ))}
                 </div>
             </div>     </div>
-                        
-    );                      
+                           
+    );                         
 }
 
 export default Section3
