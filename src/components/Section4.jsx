@@ -49,7 +49,7 @@ const Section4 = () => {
         setCurrentIndex(index);
     };
     return (
-        <section className="h-dvh w-full flex flex-col md:flex-row items-center justify-center bg-[#000615]">
+        <section className="min-h-dvh w-full flex flex-col md:flex-row items-center justify-center bg-[#000615]">
             <div className="px-4 ">
                 <h1 className="text-white  text-5xl font-bold py-4">Education</h1>
                 {data.map((info, index) => (
